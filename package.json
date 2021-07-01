@@ -8,6 +8,10 @@
     "coverage": "nyc report --reporter=text-lcov > coverage.lcov && codecov",
     "test": "standard && nyc tap test.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/elastic/monitor-event-loop-delay.git"
+  },
   "keywords": [
     "polyfill",
     "event",
